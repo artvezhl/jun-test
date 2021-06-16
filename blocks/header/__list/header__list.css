@@ -1,0 +1,7 @@
+@import "../__item/header__item.css";
+
+.header__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

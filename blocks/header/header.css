@@ -1,0 +1,6 @@
+@import "./__list/header__list.css";
+
+.header {
+  width: 100%;
+  display: flex;
+}
