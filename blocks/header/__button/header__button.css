@@ -1,0 +1,10 @@
+.header__button {
+    display: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+#menu-button {
+    fill: #F2F2F2;
+}

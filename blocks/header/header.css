@@ -1,6 +1,13 @@
-@import "./__list/header__list.css";
+@import "__menu/header__menu.css";
+@import "__button/header__button.css";
+@import "__list/header__list.css";
 
 .header {
-  width: 100%;
+  width: calc(100vw - 60px);
+  max-height: 80px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: #F2780C;
 }

@@ -1,4 +1,9 @@
+@import url(../header/header.css);
+@import url(../button_active/button_active.css);
+@import url(../link/link.css);
+@import url(../main/main.css);
+
 .page {
   font-family: Roboto, sans-serif;
-  padding: 30px 0;
+  background: #F2F2F2;
 }
