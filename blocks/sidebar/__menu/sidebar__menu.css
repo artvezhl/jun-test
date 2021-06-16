@@ -1,0 +1,7 @@
+@import url(../__list/sidebar__list.css);
+
+.sidebar__menu {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}

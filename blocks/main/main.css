@@ -1,3 +1,6 @@
+@import url(../sidebar/sidebar.css);
+@import url(../sidebar/_visible/sidebar_visible.css);
+
 .main {
     display: flex;
     height: calc(100vh - 80px);

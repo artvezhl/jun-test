@@ -1,0 +1,7 @@
+.sidebar__item {
+    border-bottom: 2px transparent solid;
+}
+
+.sidebar__item:hover {
+    border-bottom: 2px #F2F2F2 solid;
+}
