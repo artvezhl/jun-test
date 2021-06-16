@@ -1,9 +1,9 @@
-@import url(./__menu/sidebar__menu.css);
+@import url(__menu/sidebar__menu.css);
 
 .sidebar {
     max-width: 180px;
     background: #D93D1A;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     padding: 20px 10px;
