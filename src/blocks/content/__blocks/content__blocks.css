@@ -1,0 +1,5 @@
+@import url(../__checkbox-blocks/content__checkbox-blocks.css);
+
+.content__blocks {
+    display: flex;
+}

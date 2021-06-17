@@ -1,5 +1,6 @@
 @import url(../sidebar/sidebar.css);
 @import url(../sidebar/_visible/sidebar_visible.css);
+@import url(../content/content.css);
 
 .main {
     display: flex;

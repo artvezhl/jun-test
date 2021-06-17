@@ -1,0 +1,22 @@
+.content__block {
+    display: none;
+    min-width: 200px;
+    height: 100px;
+    color: #F2F2F2;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.content__block:first-child {
+    background: #D93D1A;
+}
+.content__block:last-child {
+    background: #F2A30F;
+}
+.content__block:nth-child(2) {
+    background: #F2780C;
+}
+.content__block:nth-child(3) {
+    background: #F2BB13;
+}

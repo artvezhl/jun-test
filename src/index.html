@@ -51,7 +51,7 @@
         </nav>
       </header>
       <main class="main">
-        <aside class="sidebar sidebar_visible">
+        <aside class="sidebar">
           <nav class="sidebar__menu" aria-labelledby="sidebar-navigation">
             <ul class="sidebar__list">
               <li class="sidebar__item">
@@ -72,7 +72,7 @@
                 >
               </li>
               <li class="sidebar__item">
-                <a class="sidebar__link link" href="#">Страница с чекбоксами</a>
+                <a class="sidebar__link link" href="#">Страница с чекбоксами &rarr;</a>
               </li>
             </ul>
           </nav>
@@ -85,6 +85,32 @@
             tempora dolorem, animi exercitationem! Esse laboriosam aperiam
             maxime quae quam amet!
           </p>
+          <div class="content__blocks">
+            <div class="content__checkboxes">
+              <p>Нажмите на чекбокс для исчезновения/появления всех блоков</p>
+              <div>
+                <input type="checkbox" id="main" name="main">
+                <label for="main">Я главный чекбокс</label>
+              </div>
+              <p>Выберите чекбокс:</p>
+              <div class="content__block-checkboxes">
+                <input type="checkbox" id="first" name="block-checkbox">
+                <label for="first">1st block</label>
+                <input type="checkbox" id="second" name="block-checkbox">
+                <label for="second">2nd block</label>
+                <input type="checkbox" id="third" name="block-checkbox">
+                <label for="third">3rd block</label>
+                <input type="checkbox" id="fourth" name="block-checkbox">
+                <label for="fourth">4th block</label>
+              </div>
+            </div>
+            <div class="content__checkbox-blocks">
+              <div class="content__block block" id="first-block">1st block</div>
+              <div class="content__block block" id="second-block">2nd block</div>
+              <div class="content__block block" id="third-block">3rd block</div>
+              <div class="content__block block" id="fourth-block">4th block</div>
+            </div>
+          </div>
         </section>
       </main>
     </div>

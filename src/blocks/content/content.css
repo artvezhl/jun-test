@@ -1,0 +1,5 @@
+@import url(./__blocks/content__blocks.css);
+
+.content {
+    padding: 20px;
+}

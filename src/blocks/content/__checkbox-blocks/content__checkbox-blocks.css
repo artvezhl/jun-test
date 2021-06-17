@@ -1,0 +1,9 @@
+@import url(../__block/content__block.css);
+@import url(../__block/_visible/content__block_visible.css);
+
+.content__checkbox-blocks {
+    max-width: 50%;
+    padding: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
